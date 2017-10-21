@@ -1,4 +1,4 @@
-h1.site-title {
+#sidebar .site-title {
   font-size: 2.25rem !important;
 }
 
@@ -19,9 +19,40 @@ a#zen-link span {
   top: -2px;
 }
 
+a.button {
+  padding: .5em 1em;
+  border: 1px solid #e5e5e5;
+  border-radius: 300px;
+  font-size: 0.8em;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  border-color: #e5e5e5;
+  color: #268bd2;
+  transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out, background 0.6s ease-in-out;
+}
+
+a.button:hover {
+  background: #268bd2;
+  border-color: #268bd2;
+  color: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16);
+}
+
+.zen-icon {
+  display: inline-block;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
 i.fa { margin-right: 6px; }
 
 @media (min-width: 49rem) {
+  #sidebar .site-title {
+    font-size: 2.25rem !important;
+  }
+
   img.logo {
     margin-left: 0;
   }
