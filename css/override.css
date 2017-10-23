@@ -9,6 +9,9 @@ img.logo {
   width: 6rem;
 }
 
+#sidebar .lead {
+  font-size: 0.8rem
+}
 a#zen-link span {
   display: inline-block;
   -ms-transform: rotate(90deg); /* IE 9 */
@@ -72,3 +75,5 @@ i.fa { margin-right: 6px; }
      bottom: 0;
   }
 }
+
+.centered-and-cropped { object-fit: cover }
