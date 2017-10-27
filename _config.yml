@@ -22,7 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydeout
+# theme: jekyll-theme-hydeout
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

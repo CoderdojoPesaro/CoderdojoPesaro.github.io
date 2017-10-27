@@ -4,7 +4,7 @@
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
-          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+          <span class="back-arrow icon"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
         {% endunless %}
         {{ site.title }}
       </a>
